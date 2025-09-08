@@ -1,9 +1,9 @@
+// next.config.js
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  images: {
-    domains: ['placehold.co'],
-  }
+  // No longer inside experimental
+  outputFileTracingRoot: "C:\\Users\\Lhuan DY\\OneDrive\\Documents\\Vibe_Coding\\soc-ob-system-portal"
 };
 
-module.exports = nextConfig;
+export default nextConfig;

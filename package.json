@@ -1,7 +1,8 @@
 {
-  "name": "admin-management-system",
-  "version": "0.1.0",
+  "name": "soc-ob-system-portal",
+  "version": "1.0.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,25 +13,28 @@
     "test-env": "node src/scripts/testEnv.js"
   },
   "dependencies": {
-    "dotenv": "^16.3.1",
-    "firebase": "^10.1.0",
-    "framer-motion": "^10.12.16",
-    "googleapis": "^105.0.0",
-    "lucide-react": "^0.263.1",
-    "next": "13.4.12",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "recharts": "^2.7.2"
+    "dotenv": "^17.2.2",
+    "firebase": "^12.2.1",
+    "framer-motion": "^12.23.12",
+    "googleapis": "^159.0.0",
+    "lucide-react": "^0.542.0",
+    "next": "15.5.2",
+    "react": "19.1.1",
+    "react-dom": "19.1.1",
+    "recharts": "^3.1.2"
   },
   "devDependencies": {
-    "@types/node": "^20.4.5",
-    "@types/react": "^18.2.18",
-    "@types/react-dom": "^18.2.7",
-    "autoprefixer": "10.4.14",
-    "eslint": "8.46.0",
-    "eslint-config-next": "13.4.12",
-    "postcss": "8.4.27",
-    "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "@types/estree": "^1.0.8",
+    "@types/json-schema": "^7.0.15",
+    "@types/node": "^24.3.1",
+    "@types/react": "^19.1.12",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "10.4.21",
+    "eslint": "9.35.0",
+    "eslint-config-next": "15.5.2",
+    "postcss": "8.5.6",
+    "tailwindcss": "4.1.13",
+    "typescript": "5.9.2",
+    "use-sync-external-store": "^1.5.0"
   }
 }
