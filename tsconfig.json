@@ -24,6 +24,10 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/scripts/testGoogleSheets.js", "src/lib/googleSheetsSync.js", "src/lib/firebase.js", "next.config.js", "tailwind.config.js"],
-  "exclude": ["node_modules"]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/scripts/testGoogleSheets.js", "src/lib/googleSheetsSync.js", "src/lib/firebase.js", "next.config.js", "tailwind.config.js"],
+  
+  "exclude": [
+    "node_modules",
+    ".next"     // 🚫 exclude .next entirely
+  ]
 }

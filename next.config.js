@@ -1,7 +1,11 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  outputFileTracingRoot: "C:\\Users\\Lhuan DY\\Documents\\vibe coding\\soc-ob-system-portal",
+  reactStrictMode: true,
+  images: {
+    domains: ['placehold.co'],
+  },
+  // ✅ Transpile undici so webpack can handle private fields
+  transpilePackages: ['undici'],
 };
 
-export default nextConfig;
+module.exports = nextConfig;

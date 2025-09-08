@@ -4,10 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
+    "dev": "next dev --turbo",
+    "build": "next build --turbo",
+    "start": "next start --turbo",
+    "lint": "next lint --turbo",
     "test-sheets": "node src/scripts/testGoogleSheets.js",
     "sync-employees": "node src/scripts/syncEmployees.js",
     "test-env": "node src/scripts/testEnv.js"
